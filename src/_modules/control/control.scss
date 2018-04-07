@@ -1,0 +1,14 @@
+.control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.control__prev, .control__next {
+  width: 50px;
+  height: 20px;
+  background: red;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}

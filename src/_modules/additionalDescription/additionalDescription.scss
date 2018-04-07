@@ -1,0 +1,27 @@
+.additionalDescription {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 96px;
+}
+
+.additionalDescription__item {
+  margin-right: 90px;
+  width: 150px;
+}
+
+.additionalDescription__item-name {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.additionalDescription__item-value {
+  font-weight: 600;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+
+.additionalDescription__item-value.hide {
+  opacity: 0;
+}

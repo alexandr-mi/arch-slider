@@ -1,0 +1,18 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'global';
+@import 'media';
+
+// Import Modules
+@import '../_modules/pageContainer/pageContainer';
+@import '../_modules/left/left';
+@import '../_modules/header/header';
+@import '../_modules/basicDescription/basicDescription';
+@import '../_modules/continueRead/continueRead';
+@import '../_modules/right/right';
+@import '../_modules/slider/slider';
+@import '../_modules/additionalDescription/additionalDescription';
+@import '../_modules/control/control';
+
+

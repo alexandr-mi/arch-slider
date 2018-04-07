@@ -1,0 +1,17 @@
+.slider {
+  width: 100%;
+  height: 700px;
+}
+
+.slider__item {
+  width: 100%;
+  height: 700px;
+  background-size: 102%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.slick-slide {
+  outline: none
+}

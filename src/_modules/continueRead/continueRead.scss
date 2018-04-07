@@ -1,0 +1,39 @@
+.continueRead {
+  position: relative;
+  left: 23%;
+  width: 265px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.continueRead__button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: break-all;
+  margin: 0;
+  user-select: none;
+}
+
+.continueRead:hover {
+  &:before {
+    border-bottom: 3px solid red;
+    width: 100%;
+  }
+}
+.continueRead:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 0;
+  height: 100%;
+  box-sizing: border-box;
+  transition: width 0.5s linear;
+}
+
+
+.continueRead:active {
+  opacity: 0.3;
+}

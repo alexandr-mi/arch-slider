@@ -1,0 +1,116 @@
+.pageContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0) scale(1) ;
+  display: flex;
+  align-items: flex-start;
+  width: 1500px;
+  box-sizing: border-box;
+  background-color: $pageContainerBgColor;
+}
+
+@media screen and (max-width: 1500px) {
+  .pageContainer {
+    transform: scale(0.9) translate(-56%, 0%);
+    top: -5%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .pageContainer {
+    transform: scale(0.85) translate(-59%, 0);
+    top: -7.5%;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .pageContainer {
+    transform: scale(0.8) translate(-62.5%, 0);
+    top: -9%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pageContainer {
+    transform: scale(0.75) translate(-66.5%, 0);
+    top: -11.1%;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .pageContainer {
+    transform: scale(0.7) translate(-71.5%, 0);
+    top: -13.4%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .pageContainer {
+    transform: scale(0.65) translate(-77%, 0);
+    top: -15.6%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .pageContainer {
+    transform: scale(0.6) translate(-83.5%, 0);
+    top: -18%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pageContainer {
+    transform: scale(0.55) translate(-91%, 0);
+    top: -20.1%;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .pageContainer {
+    transform: scale(0.5) translate(-100%, 0);
+    top: -22.9%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .pageContainer {
+    transform: scale(0.45) translate(-111.5%, 0);
+    top: -24.9%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .pageContainer {
+    transform: scale(0.40) translate(-125%, 0);
+    top: -27.2%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .pageContainer {
+    transform: scale(0.35) translate(-143%, 0);
+    top: -29%;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .pageContainer {
+    transform: scale(0.30) translate(-167%, 0);
+    top: -31.8%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pageContainer {
+    transform: scale(0.25) translate(-200%, 0);
+    top: -33.5%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pageContainer {
+    transform: scale(0.20) translate(-250%, 0);
+    top: -35%;
+  }
+}

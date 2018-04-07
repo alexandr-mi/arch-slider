@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 90px;
+}
+
+.header__container {
+  width: 100%;
+  padding: 0 8%;
+}
+
+.header__logo {
+  margin: 38px 0;
+  font-size: 18px;
+  font-weight: 700;
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 56px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.header__nav {
+  margin: 38px 0;
+  float: right;
+  font-size: 24px;
+  line-height: 56px;
+}
