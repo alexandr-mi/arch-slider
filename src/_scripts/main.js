@@ -2,15 +2,17 @@ import { changeHtml } from './change'
 import { counterPrev, counterNext } from './counter'
 import { doc } from './namespace'
 import { data } from './data'
+import { counter } from './counter'
 
 window.addEventListener('load', () => {
 
   const buttonPrev = document.querySelector('.control__prev');
   const buttonNext = document.querySelector('.control__next');
-  let isAnimation = false;
+
   $('.slider').slick({
     arrows: false,
     draggable: false,
+    infinite: false
   });
 
   function sliderPrev() {
@@ -34,6 +36,8 @@ window.addEventListener('load', () => {
   addListener();
 
   function prev() {
+    if ( counter === 0 ) return;
+
     removeListener();
     counterPrev();
     changeHtml( doc, data );
@@ -47,6 +51,8 @@ window.addEventListener('load', () => {
 
 
   function next() {
+    if ( counter === data.length - 1 ) return;
+
     removeListener();
     counterNext();
     changeHtml( doc, data );
@@ -58,7 +64,14 @@ window.addEventListener('load', () => {
     }, 2400)
   }
 
-
+  let prevSlide;
+  $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    prevSlide = currentSlide;
+    slick.$slides[nextSlide].classList.add('normalZoom');
+  });
+  $('.slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    slick.$slides[prevSlide].classList.remove('normalZoom');
+  });
 
 
 
