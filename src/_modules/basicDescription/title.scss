@@ -8,7 +8,7 @@
   position: relative;
   width: 750px;
   overflow: hidden;
-  margin: 0;
+  margin: 0 0 10px;
   padding: 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .basicDescription__title_name.active:after, .basicDescription__title_description.active:after {
-  transition: left 1s;
+  transition: left 0.5s;
   opacity: 1;
   left: 0;
 }

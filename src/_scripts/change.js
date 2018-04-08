@@ -5,24 +5,24 @@ function changeTitleName( document, data ) {
   setTimeout(() => {
     document.basicDescription__title_name.innerHTML = data[counter].basicDescription__title_name;
     document.basicDescription__title_name.classList.add('hide');
-  }, 1000);
+  }, 500);
   setTimeout(() => {
     document.basicDescription__title_name.classList.remove('active');
     document.basicDescription__title_name.classList.remove('hide');
-  }, 2000);
+  }, 1000);
 }
 function changeTitleDescription( document,data ) {
   setTimeout(() => {
     document.basicDescription__title_description.classList.add('active');
-  }, 300);
+  }, 200);
   setTimeout(() => {
     document.basicDescription__title_description.innerHTML = data[counter].basicDescription__title_description;
     document.basicDescription__title_description.classList.add('hide');
-  }, 1300);
+  }, 700);
   setTimeout(() => {
     document.basicDescription__title_description.classList.remove('active');
     document.basicDescription__title_description.classList.remove('hide');
-  }, 2300);
+  }, 1200);
 }
 function changeRemaining( document, data ) {
   setTimeout(() => {
@@ -31,7 +31,7 @@ function changeRemaining( document, data ) {
     document.additionalDescription__itemPhotographyBy.classList.add('hide');
     document.additionalDescription__itemWrittenBy.classList.add('hide');
     document.additionalDescription__itemPublishedOn.classList.add('hide');
-  }, 1000);
+  }, 700);
   setTimeout(() => {
     document.basicDescription__aboutIt.innerHTML = data[counter].basicDescription__aboutIt;
     document.additionalDescription__itemCategory.innerHTML = data[counter].additionalDescription__itemCategory;
@@ -44,7 +44,7 @@ function changeRemaining( document, data ) {
     document.additionalDescription__itemPhotographyBy.classList.remove('hide');
     document.additionalDescription__itemWrittenBy.classList.remove('hide');
     document.additionalDescription__itemPublishedOn.classList.remove('hide');
-  }, 1500);
+  }, 1200);
 }
 
 

@@ -8,16 +8,19 @@
   position: relative;
   width: 100%;
   height: 700px;
-  background-position: 100% 0%;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 120%;
   opacity: 0;
 }
 
 .slider__item.normalZoom {
-  background-size: 101%;
+  background-size: 102%;
   opacity: 1;
   transition: background-size 1s;
+}
+.slider__item.bgpos {
+  background-position: 100% 0;
 }
 
 .slick-slide {

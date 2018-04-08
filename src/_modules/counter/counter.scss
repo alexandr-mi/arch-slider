@@ -1,0 +1,29 @@
+.counter {
+  position: absolute;
+  top: 33.5%;
+  left: 60%;
+  width: 300px;
+  height: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+.counter__currentStep {
+  position: relative;
+  transition: top 0.4s;
+  top: 0;
+}
+
+.counter__step {
+  height: 16px;
+}
+
+
+.counter__line {
+  width: 80px;
+  height: 0;
+  border: 1px solid black;
+  margin: 8px 10px 8px 5px;
+}

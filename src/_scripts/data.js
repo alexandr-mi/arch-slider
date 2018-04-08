@@ -16,9 +16,9 @@ const data = [
     additionalDescription__itemWrittenBy: "Nhan Vo",
     additionalDescription__itemPublishedOn: "6 February 2018"
   },{
-    basicDescription__title_name: "R. Quebec",
+    basicDescription__title_name: "The Nook",
     basicDescription__title_description: "Chalet",
-    basicDescription__aboutIt: "Arecent residence situated an hour outside of Oslo, Norway and designed by Norm Architects id an example of isolated architecture, so beautiful.",
+    basicDescription__aboutIt: "Located in a quiet area of the Eastern Townships in Quebec, the Nook Residence sits in continuity with the landscape in which it is part.",
     additionalDescription__itemCategory: "Architecture",
     additionalDescription__itemPhotographyBy: "Ulysse Bouchard",
     additionalDescription__itemWrittenBy: "Jenna McKnight",
